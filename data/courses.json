@@ -1,19 +1,19 @@
 [
   {
     "id": "1",
-    "course-name": "nodeJS",
+    "courseName": "nodeJS",
     "author": "Dominic Toretto",
     "description": "This is a nodeJS course"
   },
   {
     "id": "2",
-    "course-name": "vueJS",
+    "courseName": "vueJS",
     "author": "Luke Hobbs",
     "description": "This is a vueJS course"
   },
   {
     "id": "3",
-    "course-name": "reactJS",
+    "courseName": "reactJS",
     "author": "Deckard Shaw",
     "description": "This is a reactJS course"
   }

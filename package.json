@@ -1,0 +1,23 @@
+{
+  "name": "simple-crud-rest-api-using-nodejs",
+  "version": "1.0.0",
+  "description": "Full CRUD REST API using nodeJS with no framework",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0der-himel/Simple-CRUD-REST-API-using-nodeJS.git"
+  },
+  "author": "himel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c0der-himel/Simple-CRUD-REST-API-using-nodeJS/issues"
+  },
+  "homepage": "https://github.com/c0der-himel/Simple-CRUD-REST-API-using-nodeJS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

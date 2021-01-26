@@ -1,10 +1,18 @@
 const http = require('http');
+const courses = require('./data/courses.json');
 
 const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
-  res.write(/* html */ `<h1>👋 Hello, nodeJS 🔥</h1>`);
-  res.end();
+  if (req.url === '/api/courses' && req.method === 'GET') {
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify(courses));
+  } else {
+    res.writeHead(404, { 'Content-Type': 'application/json' });
+    res.end(
+      JSON.stringify({
+        message: 'Route not Found',
+      })
+    );
+  }
 });
 
 const PORT = process.env.PORT || 3000;

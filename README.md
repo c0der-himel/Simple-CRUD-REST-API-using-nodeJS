@@ -4,7 +4,9 @@
 
 This is for learning purposes.
 
-## Usage
+## How to run
+
+Please follow the below instructions to run this project in your machine:
 
 1. Clone this repository
    ```sh
@@ -25,6 +27,8 @@ This is for learning purposes.
 5. Your app should be available in http://localhost:3000
 
 ## Routes
+
+Routes for the CRUD operations:
 
 ```
 GET      /api/courses
